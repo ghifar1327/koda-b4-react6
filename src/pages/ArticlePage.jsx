@@ -1,11 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import pkg from "../../package.json";
+import data from "../data/articles.json";
 import { Navbar } from "../components/Navbar";
 
 export const ArticlePage = () => {
   const { id } = useParams();
-  const article = pkg.articles.find((a) => a.id === Number(id));
+  const article = data.articles.find((a) => a.id === Number(id));
 
   if (!article) {
     return <h1>Artikel tidak ditemukan</h1>;

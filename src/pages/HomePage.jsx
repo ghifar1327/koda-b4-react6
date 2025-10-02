@@ -1,11 +1,10 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Link } from "react-router-dom";
-import pkg from "../../package.json";
+import data from "../data/articles.json";
 
 export const HomePage = () => {
-  const articles = pkg.articles;
-
+  const articles = data.articles;
   return (
     <main className="min-h-screen bg-gray-50">
       <Navbar />
