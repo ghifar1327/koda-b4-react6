@@ -1,16 +1,20 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
 import { ArticlePage } from "./pages/ArticlePage";
 
-export const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
+  
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/article/:id",
+    element: <ArticlePage />,
+  },
+]);
 
-        <Route path="/article/:id" element={<ArticlePage />} />
-      </Routes>
-    </BrowserRouter>
-  );
+export const App = () => {
+  return <RouterProvider router={router} />;
 };
