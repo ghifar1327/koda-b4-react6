@@ -1,0 +1,53 @@
+{
+  "name": "minitask1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.3",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "author": "Ghifar Ramdhani",
+      "img": "/img1.avif",
+      "title": "The government shutdown is a slow-boil political crisis",
+      "content": "It’s too early to blink, but the pressure is slowly beginning to rise.\n The government shutdown drama is still in its opening act with Democrats and Republicans each heaping blame on the other side.\nAnd despite deepening partisan bitterness in Washington, nothing has changed the equation that led to the impasse: Republicans and Democrats both saw a greater political advantage in letting the government close than in keeping it open.\nBut the earliest signs were evident Wednesday of the political strains that will eventually crack the unity of one or both parties — whether it takes days or weeks — and end the standoff.\n \nDay One saw the rollout of initial battleground strategies:"
+    },
+    {
+      "id": 2,
+      "author": "Ghifar Ramdhani",
+      "img": "/img2.avif",
+      "title": "China’s jobless youth aren’t happy with a plan to attract foreign professionals with a new ‘K-visa’",
+      "content": "A new visa category launched by the Chinese government to attract young science and technology professionals is causing fervent backlash in China, where well-educated young people are already struggling to find work.\n A new visa category launched by the Chinese government to attract young science and technology professionals is causing fervent backlash in China, where well-educated young people are already struggling to find work.Discussion of the K-visa category has dominated social media discussion in recent days, where top-trending hashtags related to the visa have reached roughly half a billion views in the space of two days.\n Many voices pointed to deep-seated challenges faced by young jobseekers in China, where youth unemployment hovers close to 19% and a record 12.2 million new college graduates are competing for jobs in a tough economy.\nThere are so many (master’s degree holders) here struggling to find jobs, and you are looking to bring in more talent (from overseas)?” read one comment on social media that garnered thousands of likes."
+    },
+    {
+      "id": 3,
+      "author": "Ghifar Ramdhani",
+      "img": "/img3.avif",
+      "title": "Taylor Swift’s exes inspired some of her best work. Behold the heartbreak that came before Travis Kelce",
+      "content": "Dynamic route adalah URL dengan parameter variabel..."
+    }
+  ]
+}
